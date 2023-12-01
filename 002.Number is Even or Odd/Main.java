@@ -8,7 +8,6 @@ public class Main {
         }
     }
 
-
     public static void main(String[] args) {
         checkEvenOdd(12);
         checkEvenOdd(45);
