@@ -1,11 +1,12 @@
 import java.util.*;
-public class Main {
+public class Main2 {
     public static int sumOfNNumbers(int n){
-        int sum = 0;
-        for(int i = 1; i<=n; i++){
-            sum += i;
+        if(n == 0){
+            return 0;
         }
-        return sum;
+        else {
+            return n + sumOfNNumbers(n-1);
+        }
     }
 
     public static void main(String[] args) {
